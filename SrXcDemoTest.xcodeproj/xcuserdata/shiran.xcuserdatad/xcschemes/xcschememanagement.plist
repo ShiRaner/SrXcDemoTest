@@ -7,7 +7,7 @@
 		<key>SrDemoTest.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>7</integer>
 		</dict>
 		<key>XcDemoTest.xcscheme_^#shared#^_</key>
 		<dict>
@@ -19,10 +19,30 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>XcSDKTestSr.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>40471CDB250F42B700574381</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>40471D21250F46BA00574381</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>40B53456251C87D400B33816</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>40BB9478251C94E9008E6798</key>
 		<dict>
 			<key>primary</key>
 			<true/>

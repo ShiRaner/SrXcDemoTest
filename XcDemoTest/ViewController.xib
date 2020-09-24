@@ -17,9 +17,21 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r2f-3V-bdn">
+                    <rect key="frame" x="40" y="108" width="334" height="30"/>
+                    <color key="backgroundColor" red="0.97383058300000003" green="1" blue="0.93839693700000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <state key="normal" title="ZipArchive"/>
+                </button>
+            </subviews>
             <color key="backgroundColor" red="0.78279370960000005" green="0.80772344559999998" blue="0.75786397360000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="r2f-3V-bdn" secondAttribute="trailing" constant="40" id="3ZG-wk-Cc7"/>
+                <constraint firstItem="r2f-3V-bdn" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="64" id="H8t-ep-XAc"/>
+                <constraint firstItem="r2f-3V-bdn" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="40" id="Myf-5r-4Xo"/>
+            </constraints>
             <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
-            <point key="canvasLocation" x="132" y="131"/>
+            <point key="canvasLocation" x="131.8840579710145" y="130.58035714285714"/>
         </view>
     </objects>
 </document>

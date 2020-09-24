@@ -6,6 +6,7 @@
 //
 
 #import "ViewController.h"
+#import <XcSDKTest/XcLog.h>
 
 @interface ViewController ()
 
@@ -16,7 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
    
-    
+    NSString * str = [[[XcLog alloc]init] xcLog];
+       NSLog( @"\n ====== %@",str);
     
     
 }
