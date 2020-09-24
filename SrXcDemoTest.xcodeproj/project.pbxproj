@@ -39,9 +39,9 @@
 		40471D2A250F46BA00574381 /* XcSDKTest.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 40471D22250F46BA00574381 /* XcSDKTest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		40471D31250F475600574381 /* XcLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 40471D2F250F475600574381 /* XcLog.h */; platformFilter = ios; settings = {ATTRIBUTES = (Public, ); }; };
 		40471D32250F475600574381 /* XcLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 40471D30250F475600574381 /* XcLog.m */; };
-		40821E8D251C9969004686CD /* XcSDKTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40821E8C251C9969004686CD /* XcSDKTest.framework */; };
 		40B53454251B30F000B33816 /* ZipArchiveXc.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B53452251B30F000B33816 /* ZipArchiveXc.m */; };
 		40B53455251B30F000B33816 /* ZipArchiveXc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40B53453251B30F000B33816 /* ZipArchiveXc.xib */; };
+		40E387FF251C9CE70044526E /* XcSDKTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E387FE251C9CE70044526E /* XcSDKTest.framework */; };
 		7347C311185868811559F7E9 /* Pods_SrDemoTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DC280EDFC8BD5E60D4D44FA /* Pods_SrDemoTest.framework */; };
 		9D50047B2E394DDF351E2B34 /* Pods_XcDemoTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D4213F61CEC40BB1CC460A /* Pods_XcDemoTest.framework */; };
 /* End PBXBuildFile section */
@@ -106,10 +106,11 @@
 		40471D25250F46BA00574381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40471D2F250F475600574381 /* XcLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XcLog.h; sourceTree = "<group>"; };
 		40471D30250F475600574381 /* XcLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XcLog.m; sourceTree = "<group>"; };
-		40821E8C251C9969004686CD /* XcSDKTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcSDKTest.framework; path = Products/XcSDKTest.framework; sourceTree = SOURCE_ROOT; };
 		40B53451251B30F000B33816 /* ZipArchiveXc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZipArchiveXc.h; sourceTree = "<group>"; };
 		40B53452251B30F000B33816 /* ZipArchiveXc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZipArchiveXc.m; sourceTree = "<group>"; };
 		40B53453251B30F000B33816 /* ZipArchiveXc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZipArchiveXc.xib; sourceTree = "<group>"; };
+		40E387FD251C9CBA0044526E /* XcSDKTest.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = XcSDKTest.zip; sourceTree = "<group>"; };
+		40E387FE251C9CE70044526E /* XcSDKTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = XcSDKTest.framework; sourceTree = "<group>"; };
 		7791F2B7964F6895C66FFEEE /* Pods-XcDemoTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XcDemoTest.debug.xcconfig"; path = "Target Support Files/Pods-XcDemoTest/Pods-XcDemoTest.debug.xcconfig"; sourceTree = "<group>"; };
 		7DC280EDFC8BD5E60D4D44FA /* Pods_SrDemoTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SrDemoTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE75B332A7AA0F7320980278 /* Pods-XcDemoTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XcDemoTest.release.xcconfig"; path = "Target Support Files/Pods-XcDemoTest/Pods-XcDemoTest.release.xcconfig"; sourceTree = "<group>"; };
@@ -129,7 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40821E8D251C9969004686CD /* XcSDKTest.framework in Frameworks */,
+				40E387FF251C9CE70044526E /* XcSDKTest.framework in Frameworks */,
 				7347C311185868811559F7E9 /* Pods_SrDemoTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,6 +148,7 @@
 		40471CD1250F42A900574381 = {
 			isa = PBXGroup;
 			children = (
+				40E387FD251C9CBA0044526E /* XcSDKTest.zip */,
 				40471CDE250F42B700574381 /* XcDemoTest */,
 				40471CFB250F42C500574381 /* SrDemoTest */,
 				40471D23250F46BA00574381 /* XcSDKTest */,
@@ -186,7 +188,7 @@
 		40471CFB250F42C500574381 /* SrDemoTest */ = {
 			isa = PBXGroup;
 			children = (
-				40821E8C251C9969004686CD /* XcSDKTest.framework */,
+				40E387FE251C9CE70044526E /* XcSDKTest.framework */,
 				40471CFC250F42C500574381 /* AppDelegate.h */,
 				40471CFD250F42C500574381 /* AppDelegate.m */,
 				40471D18250F438600574381 /* ViewController.h */,
@@ -724,6 +726,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Products",
+					"$(PROJECT_DIR)/SrDemoTest",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -798,6 +801,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Products",
+					"$(PROJECT_DIR)/SrDemoTest",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;

@@ -7,7 +7,7 @@
   spec.homepage     = "https://github.com/ShiRaner/SrXcDemoTest"  # 5 项目主页 不是 git 地址
   spec.license      = { :type => "MIT", :file => "LICENSE" }  # 6 开源协议
   spec.author       = { "ShiRaner" => "1129748463@qq.com" } # 7 作者
-  spec.platform     = :ios, "8.0"    # 8 支持的平台和版本号
+  spec.platform     = :ios, "10.0"    # 8 支持的平台和版本号
   spec.source       = { :git => "https://github.com/ShiRaner/SrXcDemoTest.git", :tag => "#{spec.version}" }  # 存储库的 git 地址 以及 tag 值
   spec.source_files  = "XcSDKTest/*.{h,m}"   # 需要托管的源代码路径
   spec.public_header_files = "XcSDKTest/*.h"  #头文件
